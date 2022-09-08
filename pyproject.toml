@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "arc"
+version = "0.1.0"
+description = ""
+authors = ["marius <mariusmillea@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tweepy = "^4.10.1"
+pandas = "^1.4.4"
+matplotlib = "^3.5.3"
+more-itertools = "^8.14.0"
+english-words = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.15.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
